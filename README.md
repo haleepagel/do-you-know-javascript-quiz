@@ -4,7 +4,7 @@ This was created during my time as a student at Code Chrysalis.
 
 This is a fullstack quiz app that tests your JavaScript knowledge and displays your score on a leaderboard.
 
-![Do You Know JavaScript? Quiz App Logo](/img/doYouKnowJavaScript.png)
+![Do You Know JavaScript? Quiz App Logo](./public/img/doYouKnowJavaScript.png)
 
 ## Getting Started
 
@@ -12,7 +12,7 @@ This READ-ME file will help you install this project locally and explain how to 
 
 ## Prerequisites
 
-You need: yarn, Node.js, NoSQL, knex, Firebase, express
+You need: yarn, Node.js, NoSQL, Firebase, express
 
 ### Installing
 
@@ -26,7 +26,7 @@ You need: yarn, Node.js, NoSQL, knex, Firebase, express
 
 ## Built With
 
-- Node.js, NoSQL, knex, Firebase, express
+- Node.js, NoSQL, Firebase, express
 
 ## Contributing
 
