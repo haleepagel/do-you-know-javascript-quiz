@@ -5,6 +5,7 @@ import QuizContainer from "./components/dashboard/QuizContainer.js";
 import Scoreboard from "./components/scoreboard/Scoreboard.js";
 import SignIn from "./components/auth/SignIn.js";
 import SignUp from "./components/auth/SignUp.js";
+import Homepage from "./components/Homepage.js";
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
             <Route exact path="/scoreboard" component={Scoreboard} />
             <Route path="/signin" component={SignIn} />
             <Route path="/signup" component={SignUp} />
+            <Route path="/" component={Homepage} />
           </Switch>
         </div>
       </BrowserRouter>

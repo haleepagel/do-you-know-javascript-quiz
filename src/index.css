@@ -1,3 +1,7 @@
+html {
+  min-height: 100%;
+  color: white;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -6,9 +10,99 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: url(./img/doyouknowjavascriptbackground.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: #d2f2f9;
+  background-size: 100%;
+  min-height: 100%;
 }
-
+form {
+  padding: 20px;
+  margin-top: 60px;
+}
+form button,
+form h5 {
+  margin: 20px 0;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.quiz-container {
+  background: #59cd90;
+  text-align: center;
+  padding: 5px;
+  border-top: 4px solid #ee6e74;
+  border-bottom: 4px solid #ee6e74;
+  border-left: 4px solid #ee6e74;
+  border-right: 4px solid #ee6e74;
+  border-radius: 30%;
+  margin: 5px auto;
+}
+.quizQuestion {
+  text-align: center;
+  background: #3c1642;
+  padding: 20px;
+  border-top: 4px solid #ee6e74;
+  border-bottom: 4px solid #ee6e74;
+  border-left: 4px solid #ee6e74;
+  border-right: 4px solid #ee6e74;
+  border-radius: 30%;
+  width: 600px;
+  margin: 5px auto;
+}
+
+.quizQuestionContainer {
+  margin: 10px auto;
+  width: 400px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-row: auto auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+.box {
+  background-color: #3c1642;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.scoreboard {
+  text-align: center;
+  background: #3c1642;
+  color: white;
+  box-shadow: 5px 5px 5px;
+  border-radius: 30%;
+  width: 600px;
+  margin: 5px auto;
+  padding: 10px;
+  border-top: 4px solid #ee6e74;
+  border-bottom: 4px solid #ee6e74;
+  border-left: 4px solid #ee6e74;
+  border-right: 4px solid #ee6e74;
+}
+.homepage {
+  text-align: center;
+  background: #3c1642;
+  color: white;
+  box-shadow: 5px 5px 5px;
+  border-radius: 30%;
+  width: 800px;
+  margin: 5px auto;
+  padding: 10px;
+  border-top: 4px solid #ee6e74;
+  border-bottom: 4px solid #ee6e74;
+  border-left: 4px solid #ee6e74;
+  border-right: 4px solid #ee6e74;
+}
+
+.line {
+  width: 50%;
 }

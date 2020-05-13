@@ -1,10 +1,10 @@
 import React from "react";
 
-const Notifications = () => {
+const Quiz = () => {
   return (
-    <div>
-      <p>Notifications</p>
+    <div className="quiz-container">
+      <h3>Quiz!</h3>
     </div>
   );
 };
-export default Notifications;
+export default Quiz;
